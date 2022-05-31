@@ -1,0 +1,3 @@
+﻿--------------------------------------- dbContext所在项目 ------------------ 启动项目
+Add-Migration -Name "lpApp001" -Project "DataCURD"  -StartupProject "DataCURD"
+Update-Database -Migration "lpApp001"  -Project "DataCURD"  -StartupProject "DataCURD"

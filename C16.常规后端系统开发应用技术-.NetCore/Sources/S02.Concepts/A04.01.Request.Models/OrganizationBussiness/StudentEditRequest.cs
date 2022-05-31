@@ -1,0 +1,23 @@
+﻿namespace WebApiConcepts.A04._01.Request.Models.OrganizationBussiness
+{
+    public class StudentEditRequest : RequestModel
+    {
+        /// <summary>
+        /// 出生日期
+        /// </summary>
+        public DateTime BirthDay { get; set; }
+        /// <summary>
+        /// 性别
+        /// </summary>
+        public bool Gender { get; set; }
+        /// <summary>
+        /// 省份
+        /// </summary>
+        public string? Province { get; set; }
+        /// <summary>
+        /// 学生归属的班级 Id
+        /// </summary>
+        public Guid TeachClassId { get; set; }
+
+    }
+}

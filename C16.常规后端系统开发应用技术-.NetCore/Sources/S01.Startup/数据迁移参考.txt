@@ -1,0 +1,2 @@
+﻿Add-Migration -Name "lpApp001" -Project "WebApiStartup"  -StartupProject "WebApiStartup"
+Update-Database -Migration "lpApp001"  -Project "WebApiStartup"  -StartupProject "WebApiStartup"

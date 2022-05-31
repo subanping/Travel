@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lp01.公共基础", "Lp01.公共基础", "{9DDEF35B-5654-4EBA-82E7-1BDE132B5FCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lp02.领域数据模型与数据处理仓储服务", "Lp02.领域数据模型与数据处理仓储服务", "{61B938B7-34EC-432B-B89E-054E0F72CCAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lp03.Dto数据模型与数据处理服务", "Lp03.Dto数据模型与数据处理服务", "{1510663D-2D9C-4A91-81B7-AFA922CCB293}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lp04.请求数据模型与数据处理服务", "Lp04.请求数据模型与数据处理服务", "{519D1120-B405-44D8-9E9E-1B1E23AA5D18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lp05.服务器", "Lp05.服务器", "{8066FC5A-4BCE-4E83-9BBA-A2E37B60F661}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lp.OnlineLearning.Shared", "Lp.OnlineLearning.Shared\Lp.OnlineLearning.Shared.csproj", "{C7CE66D4-0AC1-49EE-BCC5-6ABF91BF46E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lp.OnlineLearning.Domain.Models", "Lp.OnlineLearning.Domain.Models\Lp.OnlineLearning.Domain.Models.csproj", "{FA7E6356-79BE-442A-9A4E-604DDBC198ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lp.OnlineLearning.Domain.ORM", "Lp.OnlineLearning.Domain.ORM\Lp.OnlineLearning.Domain.ORM.csproj", "{C9229618-F06A-4B04-9A87-BDE10FB44F4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lp.OnlineLearning.Domain.Repositories", "Lp.OnlineLearning.Domain.Repositories\Lp.OnlineLearning.Domain.Repositories.csproj", "{1CC03101-6681-4100-A9E1-ACCE6E8DC7B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lp.OnlineLearning.Dto.Models", "Lp.OnlineLearning.Dto.Models\Lp.OnlineLearning.Dto.Models.csproj", "{FEF88DDE-5712-44EB-B112-19ECE5CAEA36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lp.OnlineLearning.Dto.Services", "Lp.OnlineLearning.Dto.Services\Lp.OnlineLearning.Dto.Services.csproj", "{DD8E8F2C-ED0C-40C3-934D-E9D7EDC41375}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lp.OnlineLearning.Request.Models", "Lp.OnlineLearning.Request.Models\Lp.OnlineLearning.Request.Models.csproj", "{2174C0B8-30FA-450F-93FE-AE111D1F25B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lp.OnlineLearning.Request.Services", "Lp.OnlineLearning.Request.Services\Lp.OnlineLearning.Request.Services.csproj", "{52E33351-C227-46EC-B350-94647BF9E70A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lp.OnlineLearning.WebApiServer", "Lp.OnlineLearning.WebApiServer\Lp.OnlineLearning.WebApiServer.csproj", "{2CE89592-8260-4AC1-B8B7-AED2C595A07F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7CE66D4-0AC1-49EE-BCC5-6ABF91BF46E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7CE66D4-0AC1-49EE-BCC5-6ABF91BF46E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7CE66D4-0AC1-49EE-BCC5-6ABF91BF46E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7CE66D4-0AC1-49EE-BCC5-6ABF91BF46E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA7E6356-79BE-442A-9A4E-604DDBC198ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7E6356-79BE-442A-9A4E-604DDBC198ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7E6356-79BE-442A-9A4E-604DDBC198ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7E6356-79BE-442A-9A4E-604DDBC198ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9229618-F06A-4B04-9A87-BDE10FB44F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9229618-F06A-4B04-9A87-BDE10FB44F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9229618-F06A-4B04-9A87-BDE10FB44F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9229618-F06A-4B04-9A87-BDE10FB44F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CC03101-6681-4100-A9E1-ACCE6E8DC7B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CC03101-6681-4100-A9E1-ACCE6E8DC7B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CC03101-6681-4100-A9E1-ACCE6E8DC7B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CC03101-6681-4100-A9E1-ACCE6E8DC7B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF88DDE-5712-44EB-B112-19ECE5CAEA36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF88DDE-5712-44EB-B112-19ECE5CAEA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF88DDE-5712-44EB-B112-19ECE5CAEA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF88DDE-5712-44EB-B112-19ECE5CAEA36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD8E8F2C-ED0C-40C3-934D-E9D7EDC41375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD8E8F2C-ED0C-40C3-934D-E9D7EDC41375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD8E8F2C-ED0C-40C3-934D-E9D7EDC41375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD8E8F2C-ED0C-40C3-934D-E9D7EDC41375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2174C0B8-30FA-450F-93FE-AE111D1F25B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2174C0B8-30FA-450F-93FE-AE111D1F25B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2174C0B8-30FA-450F-93FE-AE111D1F25B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2174C0B8-30FA-450F-93FE-AE111D1F25B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52E33351-C227-46EC-B350-94647BF9E70A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E33351-C227-46EC-B350-94647BF9E70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E33351-C227-46EC-B350-94647BF9E70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E33351-C227-46EC-B350-94647BF9E70A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CE89592-8260-4AC1-B8B7-AED2C595A07F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE89592-8260-4AC1-B8B7-AED2C595A07F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE89592-8260-4AC1-B8B7-AED2C595A07F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE89592-8260-4AC1-B8B7-AED2C595A07F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7CE66D4-0AC1-49EE-BCC5-6ABF91BF46E9} = {9DDEF35B-5654-4EBA-82E7-1BDE132B5FCC}
+		{FA7E6356-79BE-442A-9A4E-604DDBC198ED} = {61B938B7-34EC-432B-B89E-054E0F72CCAE}
+		{C9229618-F06A-4B04-9A87-BDE10FB44F4A} = {61B938B7-34EC-432B-B89E-054E0F72CCAE}
+		{1CC03101-6681-4100-A9E1-ACCE6E8DC7B3} = {61B938B7-34EC-432B-B89E-054E0F72CCAE}
+		{FEF88DDE-5712-44EB-B112-19ECE5CAEA36} = {1510663D-2D9C-4A91-81B7-AFA922CCB293}
+		{DD8E8F2C-ED0C-40C3-934D-E9D7EDC41375} = {1510663D-2D9C-4A91-81B7-AFA922CCB293}
+		{2174C0B8-30FA-450F-93FE-AE111D1F25B8} = {519D1120-B405-44D8-9E9E-1B1E23AA5D18}
+		{52E33351-C227-46EC-B350-94647BF9E70A} = {519D1120-B405-44D8-9E9E-1B1E23AA5D18}
+		{2CE89592-8260-4AC1-B8B7-AED2C595A07F} = {8066FC5A-4BCE-4E83-9BBA-A2E37B60F661}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66BEBB2F-C0C4-425F-9626-3F5C7E96DC96}
+	EndGlobalSection
+EndGlobal
